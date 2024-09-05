@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -8,7 +9,8 @@ import { NavbarComponent } from './navbar/navbar.component';
   declarations: [],
   imports: [
     CommonModule,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ]
 })
-export class CompModule { }
+export class LayoutModule { }
