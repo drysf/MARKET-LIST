@@ -1,3 +1,7 @@
 service connexion database flask mysql
 
 api flask
+
+transmettre les donnes en json pas en donnees brut
+
+connexion a la database 
